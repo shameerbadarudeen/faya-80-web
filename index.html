@@ -16,27 +16,38 @@
     <script  type="text/javascript" src="js/list.js"> </script>
   </head>
   <body>
-    <header>
-        <a href="/index.html">
-            <img src="logo.png" class="logo"  width="200" height="46"></img>
-        </a>
-        <ul class="main-nav">
-          <li>
-            <a href="dk17.html">Disrupt Kerala</a>
-          </li>
-          <li>
-            <a href="speakers.html">Speakers</a>
-          </li>
-          <li>
-            <a href="gallery.html">Gallery</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact</a>
-          </li>
-        </ul>
+    <header id="main-page">
+      <div class="header-inner">
+          <a href="/index.html" class="main-logo" title="FAYA:80">FAYA:80</a>
+          <ul class="main-nav">
+            <li>
+              <a href="dk17.html">Disrupt Kerala</a>
+            </li>
+            <li>
+              <a href="speakers.html">Speakers</a>
+            </li>
+            <li>
+              <a href="gallery.html">Gallery</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
     </header>
-    <div class="wrapper">
-      <article>
+    <div class="wrapper p-relative">
+      <div class="vdo-overlay"></div>
+      <div class="fullscreen-bg">
+        <video autoplay="" loop="" muted="" playsinline="" class="no-overflow p-relative" id="fullscreen-video" poster="">
+          <source src="vdo/faya80-bg-video.mp4" type="video/mp4">
+          <source src="" type="video/webm">
+        </video>
+        <div class="banner-content">
+            <h1>Knowledge Shared is <br><span>Power Multiplied</span></h1>
+            <p>Breaking Echo Chambers through Free Knowledge Sharing</p>
+          </div>
+      </div>
+      <!-- <article>
         <div class="banner">
           <div class="banner-overlay"></div>
           <div class="banner-content">
@@ -44,7 +55,7 @@
             <p>Breaking Echo Chambers through Free Knowledge Sharing</p>
           </div>
         </div>
-      </article>
+      </article> -->
     </div>
     <div class="wrapper">
       <div class="container">
@@ -141,6 +152,5 @@ FAYA:80 celebrated its 50th edition in July, 2017 with DISRUPT KERALA 2017, a da
           </ul>
       </div>
     </footer>
-
   </body>
 </html>

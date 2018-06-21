@@ -70,3 +70,12 @@ $(function() {
   	});
   	
 });
+
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 500) {
+        $('header').addClass('fixed-header');
+    }
+    else {
+        $('header').removeClass('fixed-header');
+    }
+});
